@@ -1,0 +1,17 @@
+{
+  "name": "deepfake-detection-demo",
+  "version": "1.0.0",
+  "description": "This repository hosts the AI Detection Demo Page, designed to showcase the capabilities of the \"Raidar\" system developed by Columbia Researchers. This interactive web demo focuses on distinguishing between human-generated and AI-generated texts, including code, highlighting potential applications and ethical considerations.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "nodemailer": "^6.9.13"
+  }
+}

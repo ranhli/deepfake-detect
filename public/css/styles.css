@@ -1,0 +1,145 @@
+body {
+    font-family: Lucida Sans Unicode;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+section{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+section.ethics{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+button{
+    padding: 10px;
+    border-radius: 10px;
+    margin: 12px;
+    background-color: rgb(206, 229, 236);
+    font-weight: bold;
+}
+
+button[type="submit"] {
+    background-color: #c8c8c8; /* Green */
+    color: white;
+    cursor: pointer;
+    padding: 10px 18px;
+    text-align: center;
+    width: 15%; /* Smaller width */
+}
+
+
+
+header {
+    background-color: #003366; /* Dark blue */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #e6e6e6; /* Light gray */
+    overflow: hidden;
+    margin: 0;
+    border-bottom: 1px solid #ccc;
+    text-align: center; /* Centering nav items */
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #ddd; /* Lighter gray */
+}
+
+section {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    text-align: center; /* Center aligning text in sections */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #f1f1f1;
+    border-top: 1px solid #ccc;
+}
+
+h1, h2 {
+    font-weight: bold;
+
+}
+
+p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.text-block {
+
+    width: 600px;
+    text-align: center;
+    border-radius: 10px;
+
+    background-color: rgb(206, 229, 236);
+    padding: 10px;
+    margin: 0 auto;
+
+}   
+
+.contact-form form{
+    display: flex;
+    flex-direction: column; /* Stacks the form items vertically */
+    align-items: center;
+
+}
+.form-item {
+    display: flex;
+    align-items: center; /* Aligns items vertically in the center */
+    margin-bottom: 10px; /* Adds space between form items */
+    background-color:rgb(206, 229, 236);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.form-item label {
+    margin-right: 10px; /* Adds space between the label and the input */
+
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column; /* Stacks the form items vertically */
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto 1fr; /* Two columns, first column auto-sized */
+    grid-column-gap: 20px; /* Gap between columns */
+}
+
+.contact-form h2 {
+    grid-column: 1; /* Place "Contact Us" in the first column */
+}
+.centered-banner {
+    display: flex;
+    align-items: center; /* This aligns the child elements (text and image) vertically in the center */
+    justify-content: center; /* This centers the content horizontally */
+}
+
